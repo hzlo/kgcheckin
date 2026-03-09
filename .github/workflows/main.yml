@@ -2,8 +2,8 @@ name: main
 on:
   workflow_dispatch:
   # push:
-  schedule:
-    - cron: "*/5 * * * *"
+  # schedule:
+  #  - cron: "*/5 * * * *"
 jobs:
   run:
     runs-on: ubuntu-latest
